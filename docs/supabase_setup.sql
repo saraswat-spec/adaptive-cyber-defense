@@ -44,6 +44,8 @@ CREATE TABLE IF NOT EXISTS public.network_events (
     ack_flag_count INT DEFAULT 0,
     fin_flag_count INT DEFAULT 0,
     rst_flag_count INT DEFAULT 0,
+    port_entropy FLOAT DEFAULT 0.0,
+    syn_ratio FLOAT DEFAULT 0.0,
     psh_flag_count INT DEFAULT 0,
     urg_flag_count INT DEFAULT 0,
     down_up_ratio FLOAT DEFAULT 0.0,
@@ -146,7 +148,7 @@ CREATE OR REPLACE VIEW public.alerts AS SELECT * FROM public.threat_alerts;
 -- Seed Initial Adaptive Thresholds
 INSERT INTO public.adaptive_thresholds (metric_name, current_threshold, previous_threshold, baseline_mean, baseline_std, reason, updated_at)
 VALUES
-    ('anomaly_score', 0.0035, 0.0035, 0.0025, 0.0010, 'Initial calibrated baseline threshold', NOW()),
+    ('anomaly_score', 0.0126, 0.0126, 0.0758, 0.0325, 'Initial calibrated P5 baseline', NOW()),
     ('syn_flood_ratio', 0.85, 0.85, 0.06, 0.04, 'Normal TCP handshake ratio baseline', NOW()),
     ('flow_rate_pps', 1500.0, 1500.0, 85.0, 42.0, 'Typical enterprise perimeter packet rate', NOW()),
     ('port_scan_entropy', 0.75, 0.75, 0.18, 0.08, 'Standard endpoint port diversity index', NOW())

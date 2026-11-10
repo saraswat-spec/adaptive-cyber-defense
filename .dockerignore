@@ -1,0 +1,34 @@
+# Git
+.git/
+.gitignore
+
+# Environment secrets
+.env*
+**/.env*
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+**/node_modules/
+frontend/
+
+# Java
+java-backend/
+**/target/
+
+# Documentation
+docs/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
