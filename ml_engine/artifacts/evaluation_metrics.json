@@ -1,0 +1,304 @@
+{
+  "overall": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0
+  },
+  "anomaly_detection": {
+    "detection_rate": 0.9816666666666667,
+    "false_alarm_rate": 0.054285714285714284,
+    "true_positives": 589,
+    "false_positives": 76,
+    "true_negatives": 1324,
+    "false_negatives": 11
+  },
+  "dataset_provenance": {
+    "total_dataset_samples": 10000,
+    "train_samples": 8000,
+    "validation_samples": 2000,
+    "train_benign_samples": 5600,
+    "val_benign_samples": 1400,
+    "val_attack_samples": 600,
+    "evaluation_partition": "HELD_OUT_VALIDATION_SET_ONLY"
+  },
+  "confusion_matrix_grid": [
+    [
+      1400,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      120,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      120,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      120,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      120,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      120
+    ]
+  ],
+  "confusion_matrix_records": [
+    {
+      "actual": "Benign",
+      "predicted": "Benign",
+      "count": 1400
+    },
+    {
+      "actual": "Benign",
+      "predicted": "DoS_DDoS",
+      "count": 0
+    },
+    {
+      "actual": "Benign",
+      "predicted": "PortScan",
+      "count": 0
+    },
+    {
+      "actual": "Benign",
+      "predicted": "BruteForce",
+      "count": 0
+    },
+    {
+      "actual": "Benign",
+      "predicted": "WebAttack",
+      "count": 0
+    },
+    {
+      "actual": "Benign",
+      "predicted": "Infiltration",
+      "count": 0
+    },
+    {
+      "actual": "DoS_DDoS",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "actual": "DoS_DDoS",
+      "predicted": "DoS_DDoS",
+      "count": 120
+    },
+    {
+      "actual": "DoS_DDoS",
+      "predicted": "PortScan",
+      "count": 0
+    },
+    {
+      "actual": "DoS_DDoS",
+      "predicted": "BruteForce",
+      "count": 0
+    },
+    {
+      "actual": "DoS_DDoS",
+      "predicted": "WebAttack",
+      "count": 0
+    },
+    {
+      "actual": "DoS_DDoS",
+      "predicted": "Infiltration",
+      "count": 0
+    },
+    {
+      "actual": "PortScan",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "actual": "PortScan",
+      "predicted": "DoS_DDoS",
+      "count": 0
+    },
+    {
+      "actual": "PortScan",
+      "predicted": "PortScan",
+      "count": 120
+    },
+    {
+      "actual": "PortScan",
+      "predicted": "BruteForce",
+      "count": 0
+    },
+    {
+      "actual": "PortScan",
+      "predicted": "WebAttack",
+      "count": 0
+    },
+    {
+      "actual": "PortScan",
+      "predicted": "Infiltration",
+      "count": 0
+    },
+    {
+      "actual": "BruteForce",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "actual": "BruteForce",
+      "predicted": "DoS_DDoS",
+      "count": 0
+    },
+    {
+      "actual": "BruteForce",
+      "predicted": "PortScan",
+      "count": 0
+    },
+    {
+      "actual": "BruteForce",
+      "predicted": "BruteForce",
+      "count": 120
+    },
+    {
+      "actual": "BruteForce",
+      "predicted": "WebAttack",
+      "count": 0
+    },
+    {
+      "actual": "BruteForce",
+      "predicted": "Infiltration",
+      "count": 0
+    },
+    {
+      "actual": "WebAttack",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "actual": "WebAttack",
+      "predicted": "DoS_DDoS",
+      "count": 0
+    },
+    {
+      "actual": "WebAttack",
+      "predicted": "PortScan",
+      "count": 0
+    },
+    {
+      "actual": "WebAttack",
+      "predicted": "BruteForce",
+      "count": 0
+    },
+    {
+      "actual": "WebAttack",
+      "predicted": "WebAttack",
+      "count": 120
+    },
+    {
+      "actual": "WebAttack",
+      "predicted": "Infiltration",
+      "count": 0
+    },
+    {
+      "actual": "Infiltration",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "actual": "Infiltration",
+      "predicted": "DoS_DDoS",
+      "count": 0
+    },
+    {
+      "actual": "Infiltration",
+      "predicted": "PortScan",
+      "count": 0
+    },
+    {
+      "actual": "Infiltration",
+      "predicted": "BruteForce",
+      "count": 0
+    },
+    {
+      "actual": "Infiltration",
+      "predicted": "WebAttack",
+      "count": 0
+    },
+    {
+      "actual": "Infiltration",
+      "predicted": "Infiltration",
+      "count": 120
+    }
+  ],
+  "class_metrics": {
+    "Benign": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1400
+    },
+    "DoS_DDoS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 120
+    },
+    "PortScan": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 120
+    },
+    "BruteForce": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 120
+    },
+    "WebAttack": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 120
+    },
+    "Infiltration": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 120
+    }
+  },
+  "classes": [
+    "Benign",
+    "DoS_DDoS",
+    "PortScan",
+    "BruteForce",
+    "WebAttack",
+    "Infiltration"
+  ]
+}

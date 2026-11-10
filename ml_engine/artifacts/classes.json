@@ -1,0 +1,8 @@
+[
+  "Benign",
+  "DoS_DDoS",
+  "PortScan",
+  "BruteForce",
+  "WebAttack",
+  "Infiltration"
+]

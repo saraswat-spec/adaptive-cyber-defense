@@ -1,0 +1,162 @@
+[
+  {
+    "feature": "pkt_len_var",
+    "importance": 0.047921262497514376
+  },
+  {
+    "feature": "fwd_pkt_len_max",
+    "importance": 0.04682380966108336
+  },
+  {
+    "feature": "pkt_len_mean",
+    "importance": 0.04513971316942502
+  },
+  {
+    "feature": "bwd_seg_size_avg",
+    "importance": 0.04443432155436059
+  },
+  {
+    "feature": "fwd_pkt_len_std",
+    "importance": 0.042919046988191954
+  },
+  {
+    "feature": "fwd_iat_min",
+    "importance": 0.04180611023856628
+  },
+  {
+    "feature": "bwd_iat_min",
+    "importance": 0.04145807791385547
+  },
+  {
+    "feature": "pkt_len_std",
+    "importance": 0.040346112714253334
+  },
+  {
+    "feature": "bwd_pkt_len_max",
+    "importance": 0.035947635925225964
+  },
+  {
+    "feature": "bwd_iat_mean",
+    "importance": 0.0346483727133753
+  },
+  {
+    "feature": "psh_flag_cnt",
+    "importance": 0.03383286498830442
+  },
+  {
+    "feature": "ack_flag_cnt",
+    "importance": 0.03340501136701378
+  },
+  {
+    "feature": "bwd_pkt_len_mean",
+    "importance": 0.03188247596415112
+  },
+  {
+    "feature": "tot_fwd_pkts",
+    "importance": 0.03079076808360136
+  },
+  {
+    "feature": "pkt_size_avg",
+    "importance": 0.030380085923995347
+  },
+  {
+    "feature": "fin_flag_cnt",
+    "importance": 0.028096483799017448
+  },
+  {
+    "feature": "fwd_iat_std",
+    "importance": 0.02792893965721312
+  },
+  {
+    "feature": "bwd_iat_std",
+    "importance": 0.026592083036659008
+  },
+  {
+    "feature": "fwd_seg_size_avg",
+    "importance": 0.02405559037359785
+  },
+  {
+    "feature": "syn_flag_cnt",
+    "importance": 0.023895957958691705
+  },
+  {
+    "feature": "port_entropy",
+    "importance": 0.022678495081058295
+  },
+  {
+    "feature": "bwd_iat_max",
+    "importance": 0.022615034653365076
+  },
+  {
+    "feature": "fwd_pkt_len_min",
+    "importance": 0.021433668222065896
+  },
+  {
+    "feature": "fwd_iat_mean",
+    "importance": 0.021373746600889948
+  },
+  {
+    "feature": "flow_bytes_per_sec",
+    "importance": 0.020037144249866547
+  },
+  {
+    "feature": "fwd_pkt_len_mean",
+    "importance": 0.020032473024344025
+  },
+  {
+    "feature": "subflow_fwd_pkts",
+    "importance": 0.019971547712795776
+  },
+  {
+    "feature": "subflow_fwd_bytes",
+    "importance": 0.017449920635696482
+  },
+  {
+    "feature": "flow_duration",
+    "importance": 0.017385714314755326
+  },
+  {
+    "feature": "bwd_pkt_len_std",
+    "importance": 0.016646838882099425
+  },
+  {
+    "feature": "bwd_pkt_len_min",
+    "importance": 0.016071216479527004
+  },
+  {
+    "feature": "tot_bwd_pkts",
+    "importance": 0.014811704912912439
+  },
+  {
+    "feature": "tot_len_bwd_pkts",
+    "importance": 0.014309545703499736
+  },
+  {
+    "feature": "fwd_iat_max",
+    "importance": 0.013637665054436213
+  },
+  {
+    "feature": "tot_len_fwd_pkts",
+    "importance": 0.01344207175690534
+  },
+  {
+    "feature": "rst_flag_cnt",
+    "importance": 0.0065772582840232215
+  },
+  {
+    "feature": "flow_packets_per_sec",
+    "importance": 0.00534372821136775
+  },
+  {
+    "feature": "down_up_ratio",
+    "importance": 0.0038775016922946307
+  },
+  {
+    "feature": "urg_flag_cnt",
+    "importance": 0.0
+  },
+  {
+    "feature": "ece_flag_cnt",
+    "importance": 0.0
+  }
+]
