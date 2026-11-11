@@ -17,7 +17,7 @@ COPY backend /app/backend
 COPY ml_engine /app/ml_engine
 
 # Set python path and environment
-ENV PYTHONPATH="/app/backend:/app"
+ENV PYTHONPATH="/app/backend:/app:/app/ml_engine"
 ENV ML_ARTIFACTS_DIR="/app/ml_engine/artifacts"
 ENV PORT=8000
 EXPOSE 8000
